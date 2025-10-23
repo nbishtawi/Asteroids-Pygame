@@ -13,7 +13,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-        pygame.Surface.fill(screen,color = (0,0,0))
+
+        screen.fill("black")
         pygame.display.flip()
 
 if __name__ == "__main__":
